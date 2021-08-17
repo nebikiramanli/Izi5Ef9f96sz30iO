@@ -139,6 +139,7 @@ class Twitter:
         return listComment,listReTweet,listLike,listTime
 
     def browserClose(self):
+        print("Browser closed")
         self.browser.close()
 
 
