@@ -146,7 +146,7 @@ class Twitter:
 twitter=Twitter(username,password)
 #login
 twitter.signIn()
-twitter.search("request for startup")
+twitter.search("request for startup deneme githup ")
 data=twitter.tweet()
 twitter.saveToCvs(data)
 comment,retweet,like,time=twitter.readtoCvs()
